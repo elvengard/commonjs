@@ -1,2 +1,2 @@
 # commonjs
-a common js component
+公共JS组件的开发.
