@@ -1,6 +1,18 @@
-@@include('../base_ui_html/head.html')
+<!DOCTYPE html>
+<html>
+<head>
+    <title>mod.js</title>
+    <script type="text/javascript" src="/static/mod.js"></script>
+</head>
+<body>
+    <p> Hello, World. </p>
+    <button id="btn">load async js</button>
 
-<p>helloworld</p>
 
 
-@@include('../base_ui_html/foot.html')
+
+    <script type="text/javascript">
+        require('/comp/1-0');
+    </script>
+</body>
+</html>
